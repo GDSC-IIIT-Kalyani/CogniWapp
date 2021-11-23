@@ -1,4 +1,5 @@
 # CogniWapp
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.lOMNSVBQo6xaXC0q15iuIQAAAA%26pid%3DApi&f=1" align="right" height="250px" width="250px"/>
 
 ## Description
 - Keeps a check on incoming messages through basic web-scraping and automation using selenium.
@@ -9,14 +10,13 @@
 
 ## Dependencies
 - Python version >= 3.6
-- selenium with geckodriver for firefox<br/>
+- selenium with chromedriver for chrome browser compatible with each other<br/>
   ```pip install selenium```<br/>
   ```pip install webdriver_manager```
-- get geckodriver from https://github.com/mozilla/geckodriver/releases<br/>
-  - extract ```sudo tar -xvf geckodriver-v0.26.0-linux64.tar.gz```
-  - move Geckodriver to Binary location ``` sudo mv geckodriver /usr/local/bin/```
+- get chromedriver from https://chromedriver.chromium.org/downloads<br/>
+  - move Chromedriver to Binary location ``` sudo mv chromedriver /usr/local/bin/``` (On Windows, just add the location of chromedriver to PATH env-var)
   - change cd to Binary ```cd /usr/local/bin/```
-  - make executable permission to geckodriver ```sudo chmod +x geckodriver```
+  - make executable permission to chromedriver ```sudo chmod +x chromedriver```
 
 
 ## Getting started
@@ -45,6 +45,12 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!
 * __Star this repository__ if you had fun!
+
+## Contributors
+
+<a href="https://github.com/paxF3E/CogniWapp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=paxF3E/CogniWapp" />
+</a>
 
 ## Future Aspects
 - Translate texts
